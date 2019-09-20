@@ -1,0 +1,38 @@
+body {
+  background-color: #3a3838;
+  padding: 50px;
+  font-size: 16px;
+}
+
+#container {
+  display: flex;
+  justify-content: flex;
+}
+
+.color-picker-main .header .color-circle{
+  border-radius: 50%;
+  height: 250px;
+  margin: 15px;
+  box-shadow: 0px 0px 25px 0px rgb(32, 32, 32);
+}
+
+.color-picker-main .header input {
+  border: 2px solid teal;
+  padding: 10px 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.color-picker-main .header button {
+  padding: 10px;
+  font-size: 18px;
+  margin: 10px;
+  background-color:teal;
+  color: #FFF;
+  border: 2px solid rgb(5, 178, 209);
+  cursor: pointer;
+}
+.color-picker-main .header button:hover{ 
+  background-color: rgb(5, 178, 209);
+}
